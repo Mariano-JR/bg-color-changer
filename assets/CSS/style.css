@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1,
+p,
+button {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+button {
+    font-size: 1em;
+    height: 2em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button:active {
+    background-color: #bfecec;
+}
